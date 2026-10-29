@@ -31,5 +31,7 @@ class MainApp extends StatelessWidget {
               Text('changement effectuer'),
               Stack(
               alignment: Alignment.topRight,
-              
+              children: [
+                Container(width: 200, height: 200, color: Colors.blue[100]),
+
  
