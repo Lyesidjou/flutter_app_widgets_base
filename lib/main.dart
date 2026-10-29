@@ -17,10 +17,10 @@ class MainApp extends StatelessWidget {
               Text('Hello World!'),
                Text('Bienvenue dans Flutter'),
                Container(
-                margin: EdgeInsets.all(20), 
-                padding: EdgeInsets.all(16),
+                margin: EdgeInsets.all(30), 
+                padding: EdgeInsets.all(24),
                 decoration: BoxDecoration(
-                color: Colors.deepPurple,
+                color: Colors.teal,
                 borderRadius: BorderRadius.circular(25),
                  ),
                 child: Text(
@@ -30,7 +30,7 @@ class MainApp extends StatelessWidget {
               ),
               Text('changement effectuer'),
               Stack(
-              alignment: Alignment.topRight,
+              alignment: Alignment.bottomLeft,
               children: [
                 Container(width: 200, height: 200, color: Colors.blue[100]),
                   Icon(Icons.star, size: 100, color: Colors.amber),
@@ -41,7 +41,7 @@ class MainApp extends StatelessWidget {
                 ],
               ),
                      Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.center,
                  children: [
                   Icon(Icons.home, color: Colors.blue, size: 40),
@@ -51,12 +51,21 @@ class MainApp extends StatelessWidget {
               ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                    Text('Titre principal', style: TextStyle(fontSize: 30)),
                    SizedBox(height: 20),
                    Text('Sous-titre ou description', style: TextStyle(fontSize: 16)),
                    Icon(Icons.thumb_up, color: Colors.green, size: 40),
+                     ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
 
 
  
