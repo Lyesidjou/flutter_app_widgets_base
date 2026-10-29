@@ -16,3 +16,10 @@ class MainApp extends StatelessWidget {
             children: [
               Text('Hello World!'),
                Text('Bienvenue dans Flutter'),
+               ],
+          ),
+        ),
+      ),
+    );
+  }
+}
