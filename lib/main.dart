@@ -37,5 +37,10 @@ class MainApp extends StatelessWidget {
                   Text(
                     "Superposé !",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                     ),
+                ],
+              ),
+                     Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
 
  
