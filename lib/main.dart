@@ -18,4 +18,5 @@ class MainApp extends StatelessWidget {
                Text('Bienvenue dans Flutter'),
                Container(
                 margin: EdgeInsets.all(20), 
+                padding: EdgeInsets.all(16),
  
