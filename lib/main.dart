@@ -52,6 +52,9 @@ class MainApp extends StatelessWidget {
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
-                
+                children: [
+                   Text('Titre principal', style: TextStyle(fontSize: 30)),
+                   
+
 
  
